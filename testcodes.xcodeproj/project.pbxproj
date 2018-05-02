@@ -11,6 +11,7 @@
 		00514EBE2091AE5200BA60B8 /* testcodesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00514EBD2091AE5200BA60B8 /* testcodesTests.swift */; };
 		00514EC02091AE5200BA60B8 /* testcodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 00514EB22091AE5100BA60B8 /* testcodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00514ECB2091AE8300BA60B8 /* view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00514ECA2091AE8300BA60B8 /* view.swift */; };
+		00D887CB2099A032003F5443 /* FeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D887CA2099A032003F5443 /* FeatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		00514EBD2091AE5200BA60B8 /* testcodesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testcodesTests.swift; sourceTree = "<group>"; };
 		00514EBF2091AE5200BA60B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00514ECA2091AE8300BA60B8 /* view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view.swift; sourceTree = "<group>"; };
+		00D887CA2099A032003F5443 /* FeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				00514ECA2091AE8300BA60B8 /* view.swift */,
+				00D887CA2099A032003F5443 /* FeatView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D887CB2099A032003F5443 /* FeatView.swift in Sources */,
 				00514ECB2091AE8300BA60B8 /* view.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
